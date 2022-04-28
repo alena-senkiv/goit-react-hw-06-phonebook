@@ -7,7 +7,7 @@ import { addContact } from 'redux/contactsSlice';
 const nameInputId = uuidv4();
 const numberInputId = uuidv4();
 
-const ContactForm = () => {
+export const ContactForm = () => {
   const dispatch = useDispatch();
   const contacts = useSelector(state => state.contacts);
 
@@ -53,5 +53,3 @@ const ContactForm = () => {
     </form>
   );
 };
-
-export default ContactForm;

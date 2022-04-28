@@ -3,11 +3,11 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Container } from 'components/Container';
 import { Filter } from 'components/Filter';
-import ContactForm from 'components/ContactForm';
+import { ContactForm } from 'components/ContactForm';
 import { ContactList } from 'components/ContactList';
 import styles from './App.module.css';
 
-const App = () => {
+export const App = () => {
   const contacts = useSelector(state => state.contacts);
 
   return (
@@ -25,5 +25,3 @@ const App = () => {
     </Container>
   );
 };
-
-export default App;
