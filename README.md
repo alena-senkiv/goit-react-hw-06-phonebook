@@ -1,1 +1,1 @@
-- [Задание - Телефонная книга](https://github.com/goitacademy/react-homework/tree/master/homework-06).
+- [ТЗ - Телефонная книга](https://github.com/goitacademy/react-homework/tree/master/homework-06).
