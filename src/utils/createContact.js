@@ -7,7 +7,7 @@ export const createContact = ({ contacts, name, number }) => {
     name,
     number,
   };
-  console.log(contact);
+
   const normalizedName = contact.name.toLowerCase();
 
   if (!name.trim() || !number.trim()) {
